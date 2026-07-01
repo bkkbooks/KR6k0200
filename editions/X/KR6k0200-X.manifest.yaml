@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0200/X/v1
+canonical_location: https://kanripo.org/bkk/KR6k0200/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 吳中石佛相好懺儀
+  identifiers:
+    krp: KR6k0200
+    cbeta: X74n1489
+    cbeta_old_id: X74n1489
+    authorityid: CA0003389
+    json_key: X1489
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X74/X74n1489.xml
+    old_id: X74n1489
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0200_000-X.yaml, hash: 'sha256:f35cddb0f1760da2ab25a09c0324edadb3e7aa55f0891774d8b453d7961bcb98'}
+  - {seq: 1, filename: KR6k0200_001-X.yaml, hash: 'sha256:b7e34521e038ef00167ba39ccd914b5ce5833ac30b76f20ed26dcccde332ebd9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0200_000-X.markers.yaml, hash: 'sha256:4e3ae86b943b47a563642b9b05971ea86be8d8551907e0987fdd7384394180d1'}
+  - {seq: 1, role: markers, filename: assets/KR6k0200_001-X.markers.yaml, hash: 'sha256:34319a19894aad58634c233f3856dd8eac0d759ca5c5736407b3fd885713ace4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0200_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 1599
+  label: 禮吳中石佛起止儀式
+  type: juan
+  level: 1
+hash: sha256:ef2a8e5dad0eb662fc32c3bac8974eab72becb40ab2a63d8683a568630119190
