@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0200_000.yaml, hash: 'sha256:f35cddb0f1760da2ab25a09c0324edadb3e7aa55f0891774d8b453d7961bcb98'}
-  - {seq: 1, filename: KR6k0200_001.yaml, hash: 'sha256:9b4097b1b63950bd6880566d5becb6916f5910fb0cbe66f49a0a213beefa6a6b'}
+  - {seq: 1, filename: KR6k0200_001.yaml, hash: 'sha256:b7e34521e038ef00167ba39ccd914b5ce5833ac30b76f20ed26dcccde332ebd9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0200_001.markers.yaml, hash: 'sha256:49293f8df8ab44e18c6c5bb9dc048071bfe0d655e7726c9a20ee94e15e500002'}
+  - {seq: 0, role: markers, filename: assets/KR6k0200_000.markers.yaml, hash: 'sha256:f041d36046c1e8c4f8b2264061fcecd7a02bb517bd15c747f1bf3d6eeef4be3c'}
+  - {seq: 1, role: markers, filename: assets/KR6k0200_001.markers.yaml, hash: 'sha256:527e0d24afa2cc09ec36b125fad14a762c05585f16011842f35b707aa4154fce'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 禮吳中石佛起止儀式
   type: juan
   level: 1
-hash: sha256:cce37dc91fa97a4b09fa67b75b604a4c500b5798d5835b7447b1b7709e5e052a
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:549e8203657fa8a882d7230e178eda64960ecd8a626e52f48774e9fe9e5935cf
